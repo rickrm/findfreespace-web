@@ -10,10 +10,6 @@ const buildingSchema = mongoose.Schema({
         type: String,
         required: true,
     },
-    rooms: {
-        type: [String],
-        default: []
-    }
 });
 
 module.exports = mongoose.model('buildings', buildingSchema);

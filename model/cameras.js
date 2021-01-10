@@ -16,6 +16,10 @@ const camerasSchema = mongoose.Schema({
     num_of_people: {
         type: Number,
         default: 0,
+    },
+    building: {
+        type: String,
+        required: true,
     }
 });
 
